@@ -1,7 +1,7 @@
 import styles from "./Nav.module.css";
-import Search from "../search/Search.jsx";
-import GetLocation from "../getLocation/GetLocation.jsx";
-import ThemeButton from "../themeButton/ThemeButton.jsx";
+import Search from "./search/Search.jsx";
+import GetLocation from "./getLocation/GetLocation.jsx";
+import ThemeButton from "./themeButton/ThemeButton.jsx";
 
 const Nav = ({ onSelectCity, setLocation, setDarkMode }) => {
   return (
