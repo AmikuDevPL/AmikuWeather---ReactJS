@@ -1,0 +1,20 @@
+button {
+  width: 70px;
+  height: 35px;
+  border: 1px solid black;
+  background: none;
+  border-radius: 50px;
+  position: relative;
+  cursor: pointer;
+}
+
+.ball {
+  position: absolute;
+  top: 2px;
+  left: var(--left-ball);
+  height: 29px;
+  aspect-ratio: 1 / 1;
+  border: 1px solid black;
+  border-radius: 50%;
+  transition: left 0.3s ease;
+}
