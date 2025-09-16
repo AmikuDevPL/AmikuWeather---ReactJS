@@ -1,7 +1,9 @@
 :root {
   --background-color: #ffffff;
   --line-color: #46464654;
+  --ball-color: #000000c2;
   --left-ball: 2px;
+  --white-black: #000;
 }
 
 * {
@@ -19,5 +21,7 @@ body {
 body.dark {
   --background-color: #272727;
   --line-color: #68686877;
+  --ball-color: #ddcc33;
   --left-ball: 37px;
+  --white-black: #fff;
 }

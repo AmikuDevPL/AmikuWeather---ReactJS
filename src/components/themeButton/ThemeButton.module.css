@@ -16,5 +16,17 @@ button {
   aspect-ratio: 1 / 1;
   border: 1px solid black;
   border-radius: 50%;
-  transition: left 0.3s ease;
+  transition: left 0.2s ease;
+  display: grid;
+  place-items: center;
+  background-color: var(--ball-color);
+}
+
+.buttonLabel {
+  font-weight: 600;
+  position: absolute;
+  top: -20px;
+  width: 100px;
+  left: -15px;
+  color: black;
 }

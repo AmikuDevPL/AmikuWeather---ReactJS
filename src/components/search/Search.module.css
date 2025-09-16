@@ -13,6 +13,7 @@ input {
   padding-left: 20px;
   font-size: 20px;
   background-color: var(--background-color);
+  color: var(--white-black);
 }
 
 input:hover {
@@ -31,6 +32,7 @@ input:hover {
   z-index: 10;
   list-style-type: none;
   background-color: var(--background-color);
+  color: var(--white-black);
 }
 
 .suggestionItem {
